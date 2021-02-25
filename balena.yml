@@ -1,0 +1,17 @@
+name: "Helium Hotspot (EU version)"
+description: "Deploys a Helium Hotspot (Europe version) running with balena on a Raspberry Pi 4 with a RAK2287 LoRa concentrators."
+type: "sw.application"
+assets:
+  repository:
+    type: "blob.asset"
+    data:
+      url: "https://github.com/PastaGringo/balenaos-helium-gtw"
+  logo:
+    type: "blob.asset"
+    data:
+      url: "https://raw.githubusercontent.com/PastaGringo/balenaos-helium-gtw/master/logo.png"
+data:
+  defaultDeviceType: "raspberrypi4-64"
+  supportedDeviceTypes:
+    - "raspberrypi3-64"
+    - "raspberrypi4-64"
