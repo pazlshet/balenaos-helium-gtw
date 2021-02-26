@@ -1,4 +1,4 @@
-name: "Helium Hotspot (EU SX1301)"
+name: "Helium (EU SX1301)"
 description: "Deploys a Helium Hotspot (Europe version) running with balena on a Raspberry Pi 4 with a RAK2245 (RAK7243) LoRa concentrators."
 type: "sw.application"
 assets:
